@@ -7,3 +7,8 @@ for (let item of todolist){
     completedtodo.push(item)
 
 }
+
+for (let item of completedtodo){
+    console.log(item.todo)
+
+}
